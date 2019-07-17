@@ -1,6 +1,7 @@
 # statsd exporter [![Build Status](https://travis-ci.org/prometheus/statsd_exporter.svg)][travis]
 
-[![CircleCI](https://circleci.com/gh/prometheus/statsd_exporter/tree/master.svg?style=shield)][circleci]
+[![CircleCI](https://circleci.com/gh/prometheus/statsd_exporter/tree/master.svg?style=shield)][![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fgpaulavicius%2Fstatsd_exporter.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fgpaulavicius%2Fstatsd_exporter?ref=badge_shield)
+[circleci]
 [![Docker Repository on Quay](https://quay.io/repository/prometheus/statsd-exporter/status)][quay]
 [![Docker Pulls](https://img.shields.io/docker/pulls/prom/statsd-exporter.svg)][hub]
 
@@ -405,3 +406,7 @@ docker run -d -p 9102:9102 -p 9125:9125 -p 9125:9125/udp \
 [circleci]: https://circleci.com/gh/prometheus/statsd_exporter
 [quay]: https://quay.io/repository/prometheus/statsd-exporter
 [hub]: https://hub.docker.com/r/prom/statsd-exporter/
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fgpaulavicius%2Fstatsd_exporter.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fgpaulavicius%2Fstatsd_exporter?ref=badge_large)
